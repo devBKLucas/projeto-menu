@@ -1,3 +1,5 @@
+import Tree from './tree.js'
+
 const menu = [
     { id: 1, name: "Desktops", parent: 3 },
     { id: 3, name: "Computers", parent: 8 },
@@ -11,3 +13,5 @@ const menu = [
     { id: 13, name: "Remotes", parent: 14 },
     { id: 14, name: "Accessories", parent: 10 }
 ]
+
+Tree(menu)
